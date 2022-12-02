@@ -1,0 +1,31 @@
+#pedido {
+    padding: 10px ;
+    border-radius: 4px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+
+}
+
+main{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+p{
+    font-size: 30px;
+}
+
+.card{
+    justify-content: center;
+    border: 2px solid black;
+    max-width: 250px;
+    margin: 10px;
+    border-radius: 7px;
+    padding: 5px;
+}

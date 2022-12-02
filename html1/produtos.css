@@ -1,6 +1,8 @@
 header{
-    background-color: gray;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(143,142,150,1) 36%, rgba(0,0,0,1) 85%);
     padding: 20px 0;
+    color: white;
 }
 
 nav li{
@@ -8,8 +10,14 @@ nav li{
     
 }
 
+header a{
+    color: white;
+    text-decoration: none;
+}
+
 nav li:hover{
-    color:blue;
+    transition-delay: 10ms;
+    font-size: 30px;
 }
 
 nav{
